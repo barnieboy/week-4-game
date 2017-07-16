@@ -33,14 +33,14 @@ ol {
 	background-color: yellow; 
 }
 
-/* Specfic Elements*/
+
 div.header, div.crystals {
 	background-color: #d4d4d4;
 }
 div.header, div.instructions {
 	width: 50%;
 }
-/* Classes */
+
 .numberToMatch {
 	float: left;
 	width: 20%;
