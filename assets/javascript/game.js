@@ -1,4 +1,4 @@
-$( document ).ready(function(){
+$(document).ready(function(){
   var Random = Math.floor(Math.random()*100+1)
   
   // Selects a random number to be shown at the start of the game
@@ -48,7 +48,7 @@ alert ("You lose!");
   reset()
 }
 //sets up click for crystals
-  $('#one').on ('click', function(){
+  $('#one').on('click', function(){
     userTotal = userTotal + num1;
     console.log("New userTotal " + userTotal);
     $('#finalTotal').text(userTotal); 
@@ -60,7 +60,7 @@ alert ("You lose!");
           loser();
         }   
   })  
-  $('#two').on ('click', function(){
+  $('#two').on('click', function(){
     userTotal = userTotal + num2;
     console.log("New userTotal " + userTotal);
     $('#finalTotal').text(userTotal); 
@@ -71,7 +71,7 @@ alert ("You lose!");
           loser();
         } 
   })  
-  $('#three').on ('click', function(){
+  $('#three').on('click', function(){
     userTotal = userTotal + num3;
     console.log("New userTotal " + userTotal);
     $('#finalTotal').text(userTotal);
@@ -83,7 +83,7 @@ alert ("You lose!");
           loser();
         } 
   })  
-  $('#four').on ('click', function(){
+  $('#four').on('click', function(){
     userTotal = userTotal + num4;
     console.log("New userTotal " + userTotal);
     $('#finalTotal').text(userTotal); 
